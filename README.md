@@ -1,6 +1,10 @@
 <h1 align="center">🏦 Bank Customer Churn Analysis & Prediction</h1>
 
 <p align="center">
+  End-to-End Data Analytics & Machine Learning Project using Python, SQL, MySQL, Machine Learning and Power BI
+</p>
+
+<p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
@@ -9,153 +13,172 @@
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 ---
 
-## 📌 Project Overview
-
-Customer churn is one of the most critical challenges in the banking industry. Retaining existing customers is significantly more cost-effective than acquiring new ones.
-
-This project focuses on analyzing customer behavior and predicting customer churn using **Python, SQL, Machine Learning, and Power BI**. The goal is to identify customers who are likely to leave the bank and generate actionable business insights that support customer retention strategies.
-
----
-
-## 📊 Power BI Dashboard
-
-> Upload your dashboard image as **dashboard.png**
+# 📊 Power BI Dashboard Preview
 
 <p align="center">
 <img src="dashboard.png" width="100%">
 </p>
 
+### 📄 Dashboard Report
+
+📥 **Download Full Dashboard PDF**
+
+[Bank Customer Churn Dashboard PDF](./Bank_Customer_Churn_Dashboard.pdf)
+
 ---
 
-## 🎯 Project Objectives
+# 📌 Project Overview
 
-- Analyze customer churn patterns.
-- Identify factors affecting customer retention.
-- Build a Machine Learning prediction model.
-- Perform SQL-based business analysis.
+Customer churn is one of the biggest challenges in the banking industry. Retaining existing customers is significantly more cost-effective than acquiring new customers.
+
+This project focuses on analyzing customer behavior and predicting customer churn using Python, SQL, Machine Learning, and Power BI. The objective is to identify customers likely to leave the bank and generate actionable business insights to improve customer retention.
+
+---
+
+# 🎯 Business Problem
+
+Banks often lose valuable customers due to inactivity, low engagement, demographic factors, and customer dissatisfaction.
+
+The goal of this project is to:
+
+- Identify customers at risk of churn.
+- Analyze churn patterns and customer behavior.
+- Build a predictive Machine Learning model.
 - Develop an interactive Power BI dashboard.
-- Generate business insights and recommendations.
+- Support data-driven business decisions.
 
 ---
 
-## 📈 Project Statistics
+# 📈 Project Statistics
 
 | Metric | Value |
 |----------|----------|
-| Dataset Size | 10,000 Records |
+| Total Customers | 10,000 |
 | Churned Customers | 2,037 |
 | Churn Rate | 20.37% |
 | ML Accuracy | 81% |
 | Countries Analyzed | 3 |
 | Dashboard Tool | Power BI |
+| Database | MySQL |
 
 ---
 
-## 🚀 Project Workflow
+# 🚀 Project Workflow
 
 ```text
-Dataset
-   ↓
-Data Cleaning
-   ↓
+Bank Customer Dataset
+         ↓
+Data Cleaning & Preprocessing
+         ↓
 Exploratory Data Analysis (EDA)
-   ↓
+         ↓
 Feature Engineering
-   ↓
+         ↓
 Machine Learning Model
-   ↓
+         ↓
 SQL Business Analysis
-   ↓
+         ↓
 Power BI Dashboard
-   ↓
-Business Insights
+         ↓
+Business Insights & Recommendations
 ```
 
----
-
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
 ### Programming & Analysis
+
 - Python
 - Pandas
 - NumPy
 
 ### Data Visualization
+
 - Matplotlib
 - Seaborn
 
 ### Machine Learning
+
 - Scikit-Learn
 
 ### Database
+
 - MySQL
+- SQL
 
 ### Business Intelligence
+
 - Power BI
 
 ### Version Control
+
 - Git
 - GitHub
 
 ---
 
-## 🤖 Machine Learning Model
+# 🤖 Machine Learning Model
 
-The churn prediction model was developed to identify customers at risk of leaving the bank.
+The Machine Learning model was trained to predict customer churn and identify customers who are likely to leave the bank.
 
 ### Model Performance
 
 | Metric | Value |
 |----------|----------|
 | Accuracy | 81% |
-| Prediction Type | Classification |
-| Dataset | Banking Customer Dataset |
+| Prediction Type | Binary Classification |
+| Dataset Size | 10,000 Records |
 
-### ML Process
+### ML Pipeline
 
-✔ Data Cleaning
+✅ Data Cleaning
 
-✔ Feature Encoding
+✅ Data Transformation
 
-✔ Data Splitting
+✅ Feature Encoding
 
-✔ Model Training
+✅ Feature Selection
 
-✔ Model Evaluation
+✅ Train-Test Split
 
-✔ Customer Churn Prediction
+✅ Model Training
+
+✅ Model Evaluation
+
+✅ Churn Prediction
 
 ---
 
-## 🗄 SQL Analysis
+# 🗄 SQL Analysis
 
 SQL was used to:
 
-- Create and manage the customer database
-- Perform churn analysis
-- Analyze customer demographics
-- Generate business insights
-- Support dashboard reporting
+- Create and manage the banking customer database.
+- Store customer information.
+- Perform churn analysis.
+- Generate business insights.
+- Support dashboard reporting.
 
-### SQL Business Queries
+### SQL Analysis Included
 
 - Customer Churn Rate
-- Churn by Geography
+- Churn by Country
 - Churn by Gender
 - Customer Product Distribution
 - Active Customer Analysis
 - Salary Analysis
 - Balance Analysis
+- Customer Tenure Analysis
 
 ---
 
-## 📊 Dashboard Features
+# 📊 Dashboard Features
 
 ✔ Customer Churn Distribution
 
@@ -165,21 +188,21 @@ SQL was used to:
 
 ✔ Age-wise Churn Analysis
 
-✔ Customer Product Distribution
-
-✔ Active Customer Analysis
+✔ Product Distribution Analysis
 
 ✔ Customer Tenure Analysis
+
+✔ Active Member Analysis
 
 ✔ Average Salary by Country
 
 ✔ Average Balance by Country
 
-✔ Interactive Filtering
+✔ Interactive Filters
 
 ---
 
-## 📈 Key Business Insights
+# 📈 Key Business Insights
 
 ### 🌍 Geography Analysis
 
@@ -187,35 +210,35 @@ Germany recorded the highest customer churn compared to France and Spain.
 
 ### 👥 Customer Demographics
 
-Customers aged between **40–55 years** showed a higher tendency to churn.
+Customers aged between 40–55 years showed a higher tendency to churn.
 
 ### 💳 Product Usage
 
-Most customers use **1–2 banking products**, highlighting opportunities for cross-selling.
+Most customers use only 1–2 banking products, highlighting opportunities for cross-selling.
 
 ### 📉 Churn Rate
 
-The bank experienced a churn rate of **20.37%**.
+The overall customer churn rate reached 20.37%.
 
 ### 🤖 Predictive Analytics
 
-The Machine Learning model achieved **81% accuracy** in predicting customer churn.
+The Machine Learning model achieved 81% accuracy in identifying customers likely to churn.
 
 ---
 
-## 💼 Business Impact
+# 💼 Business Impact
 
 This solution helps banks:
 
-- Identify high-risk customers
-- Improve customer retention
-- Reduce customer churn
-- Support data-driven decisions
-- Increase customer engagement
+- Identify high-risk customers.
+- Improve customer retention strategies.
+- Reduce churn-related losses.
+- Increase customer engagement.
+- Support data-driven decision-making.
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Bank-Customer-Churn-Analysis-and-Prediction
@@ -235,27 +258,29 @@ Bank-Customer-Churn-Analysis-and-Prediction
 ├── Dashboard
 │   └── dashboard.png
 │
+├── Bank_Customer_Churn_Dashboard.pdf
+│
 └── README.md
 ```
 
 ---
 
-## 🏆 Project Outcome
+# 🏆 Project Outcome
 
-Successfully developed an end-to-end customer churn prediction and analytics solution using:
+Successfully developed an end-to-end Customer Churn Prediction and Analytics solution by integrating:
 
 ✅ Python
 
-✅ SQL (MySQL)
+✅ SQL & MySQL
 
 ✅ Machine Learning
 
 ✅ Power BI
 
-The project demonstrates practical skills in Data Analytics, Business Intelligence, Data Visualization, Database Management, and Predictive Modeling.
+The project demonstrates practical expertise in Data Analytics, Business Intelligence, Database Management, Data Visualization, and Predictive Modeling.
 
 ---
 
-<h3 align="center">⭐ If you found this project useful, please consider starring the repository.</h3>
+<h2 align="center">⭐ If you found this project useful, please consider starring this repository.</h2>
 
-<h3 align="center">👨‍💻 Developed by Motam Vijay</h3>
+<h3 align="center">👨‍💻 Developed by SAI VAMSHI MIRYALKAR</h3>
