@@ -23,15 +23,16 @@
 # 📊 Power BI Dashboard Preview
 
 <p align="center">
-<img src="dashboard.png" width="100%">
+  <img src="dashboard.png" width="100%">
 </p>
 
-### 📄 Dashboard Report
+---
 
-📥 **Download Full Dashboard PDF**
+# 📄 Dashboard Report (PDF)
 
-[Bank Customer Churn Dashboard PDF](./Bank_Customer_Churn_Dashboard.pdf)
+📥 Click below to view/download the complete dashboard report:
 
+[👉 View Full Dashboard PDF](./Bank_Customer_Churn_Dashboard.pdf)
 ---
 
 # 📌 Project Overview
